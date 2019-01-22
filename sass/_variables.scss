@@ -1,0 +1,34 @@
+
+:root {
+    // PRIMARY COLORS
+    --color-primary: #00A46A;
+    --color-primary-light: #4BC097;
+    --color-primary-light-2: rgb(157, 250, 217);
+    --color-primary-dark: #00452D;
+    // SECONDARY COLORS
+    --color-secondary: #0C579F;
+    --color-secondary-light-1: rgba(82, 137, 188, 0.685);
+    --color-secondary-light-2: #306EAB;
+    --color-secondary-dark-1: #094580;
+    --color-secondary-dark-2: #042443;
+    // LIGHT GREYS
+    --color-grey-light-1: #faf9f9;
+    --color-grey-light-2: #f4f2f2;
+    --color-grey-light-3: #f0eeee;
+    --color-grey-light-4: #ccc;
+    // DARK GREYS
+    --color-grey-dark-1: #333;
+    --color-grey-dark-2: #777;
+    --color-grey-dark-3: #999;
+
+    //Shadows
+    --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+    --shadow-light: 0 2rem 5rem rgba(0,0,0,.06);
+
+    // BORDER
+    --line: 1px solid var(--color-grey-light-2);
+
+    // STANDARD COLORS
+    --color-white: #fff;
+    --color-notification: #DD0000;
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>Seaside Resorts &mdash; Luxury Resort booking app</title>
+    </head>
+    <body>
+        <!-- MAIN CONTAINER -->
+        <div class="container">
+            <!-- HEADER SECTION BEGIN -->
+            <header class="header">
+                <img src="img/seasideresorts2-logo.png" alt="seasideresorts logo" class="logo">
+
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search Hotels">
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                        </svg>
+                    </button>
+                </form>
+                <!-- NAVIGATION SECTION -->
+                <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                        </svg>
+                        <span class="user-nav__notification">7</span>
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-chat"></use>
+                        </svg>
+                        <span class="user-nav__notification">13</span>
+                    </div>
+                    <div class="user-nav__user">
+                        <img src="img/user.webp" alt="User  photo" class="user-nav__user-photo">
+                        <span class="user-nav__user-name">
+                            Richard
+                        </span>
+                    </div>
+                </nav>
+            </header>
+            <!-- HEADER SECTION END -->
+
+            <!-- SIDEBAR BEGINS -->
+            <div class="content">
+                <nav class="sidebar">
+                    <ul class="side-nav">
+                        <li class="side-nav__item side-nav__item--active">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-home"></use>
+                                </svg>
+                                <span>Hotel</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                                </svg>
+                                <span>Flight</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-key"></use>
+                                </svg>
+                                <span>Car rental</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-map"></use>
+                                </svg>
+                                <span>Tours</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="legal">
+                        &copy; 2019 by Seaside Resorts. All rights reserved.
+                    </div>
+                </nav>
+
+
+                <!-- Hotel View & GALLERY -->
+                <main class="hotel-view">
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                            <img src="img/hotel-1.webp" alt="Photo of resort 1" class="gallery__photo" title="Luxury Resort 1">
+                            <figcaption class="gallery__caption">Resort 1</figcaption>
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-2.webp" alt="Photo of resort 2" class="gallery__photo" title="Luxury Resort 2">
+                            <figcaption class="gallery__caption">Resort 2</figcaption>
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-3.webp" alt="Photo of resort 3" class="gallery__photo" title="Luxury Resort 3">
+                            <figcaption class="gallery__caption">Resort 3</figcaption>
+                        </figure>
+                    </div>
+                    <!-- OVERVIEW SECTION -->
+                    <div class="overview">
+                        <h1 class="overview__heading">
+                            Seaside Resorts
+                        </h1>
+                        <div class="overview__stars">
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                        </div>
+                        <!-- LOCATION -->
+                        <div class="overview__location">
+                            <svg class="overview__icon-location">
+                                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                            </svg>
+                            <button class="btn-inline">Felidhu Atoll</button>
+                        </div>
+                        <!-- RATING SECTION -->
+                        <div class="overview__rating">
+                            <div class="overview__rating-average">
+                                9.5
+                            </div>
+                            <div class="overview__rating-count">613 votes</div>
+                        </div>
+                    </div>
+                    <!-- DETAILS SECTION BEGINS -->
+                    <div class="detail">
+                        <div class="description">
+                            <p class="paragraph">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id doloribus aliquid incidunt nostrum repellendus delectus placeat dolores soluta eum quas harum, nisi iusto enim expedita, culpa amet similique illo dolore?
+                                Ipsa, error porro. Iusto nulla dolores commodi, aliquam eum, nobis placeat quam suscipit earum culpa quaerat! 
+                            </p>
+                            <p class="paragraph">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id doloribus aliquid incidunt nostrum repellendus delectus placeat dolores soluta eum quas harum,
+                                </p>
+                            <ul class="list">
+                                <li class="list__item">Private sandy beach</li>
+                                <li class="list__item">Private chef & butler service</li>
+                                <li class="list__item">VIP & Security services</li>
+                                <li class="list__item">24-Hour In-Villa Dining</li>
+                                <li class="list__item">Private helicopter & jet services</li>
+                                <li class="list__item">Diving & snorkeling</li>
+                                <li class="list__item">Serenity Spa</li>
+                                <li class="list__item">Signature Butler Service</li>
+                            </ul>
+                            <div class="recommend">
+                                <p class="recommend__count">
+                                    Recommended for Top Executives
+                                </p>
+                                <div class="recommend__friends">
+                                    <img src="img/user-3.webp" alt="Friends 3" class="recommend__photo">
+                                    <img src="img/user-4.webp" alt="Friends 4" class="recommend__photo">
+                                    <img src="img/user-8.webp" alt="Friends 8" class="recommend__photo">
+                                    <img src="img/user-7.webp" alt="Friends 7" class="recommend__photo">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- DETAIL SECTION ENDS -->
+                        <!-- USER-REVIEW SECTION -->
+                        <div class="user-reviews">
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/user-3.webp" alt="User 3" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Nylia Guirguis</p>
+                                        <p class="review__user-date">
+                                            January 20th, 2019
+                                        </p>
+                                        <div class="review__rating">9.5</div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/user-8.webp" alt="User 8" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Aryan Bhamra</p>
+                                        <p class="review__user-date">
+                                            July 4th, 2018
+                                        </p>
+                                        <div class="review__rating">9.7</div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+
+                            <button class="btn-inline">View all <span>&rarr;</span></button>
+                        </div>
+                        
+                        <!-- USER-REVIEW SECTION ENDS -->
+                    </div>
+                    <div class="cta">
+                        <h2 class="cta__book-now">Limited villas available for the summer season.</h2>
+                        <button class="btn">
+                            <span class="btn__visible">Book NOW! </span> 
+                            <span class="btn__invisible">Villas available</span>
+                        </button>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>
