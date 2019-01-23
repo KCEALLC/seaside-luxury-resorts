@@ -40,7 +40,9 @@
                         <span class="user-nav__notification">13</span>
                     </div>
                     <div class="user-nav__user">
-                        <img src="img/user.webp" alt="User  photo" class="user-nav__user-photo">
+                            <source srcset="img/user.webp" type="image/webp">
+                            <source srcset="img/user.jpg" type="image/jpg">
+                        <img src="img/user.jpg" alt="User  photo" class="user-nav__user-photo">
                         <span class="user-nav__user-name">
                             Richard
                         </span>
@@ -97,21 +99,18 @@
                 <main class="hotel-view">
                     <div class="gallery">
                         <figure class="gallery__item">
-                            <source srcset="img/hotel-1.webp" type="image/webp">
-                            <source srcset="img/hotel-1.jpg" type="image/jpg">
-                            <img src="img/hotel-1.jpg" alt="Photo of resort 1" class="gallery__photo" title="Luxury Resort 1">
+                            <source srcset="img/hotel-1-small.jpg 1x, img/hotel-1.jpg 2x" media="(max-width: 37.5em)" media="(max-width: 75em">
+                            <img srcset="img/hotel-1-small.jpg 1x, img/hotel-1.jpg 2x" alt="Photo of resort 1" class="gallery__photo" title="Luxury Resort 1">
                             <figcaption class="gallery__caption">Resort 1</figcaption>
                         </figure>
                         <figure class="gallery__item">
-                                <source srcset="img/hotel-2.webp" type="image/webp">
-                                <source srcset="img/hotel-2.jpg" type="image/jpg">
-                            <img src="img/hotel-2.jpg" alt="Photo of resort 2" class="gallery__photo" title="Luxury Resort 2">
+                            <source srcset="img/hotel-2-small.jpg 1x, img/hotel-2.jpg 2x" media="(max-width: 37.5em)" media="(max-width: 75em">
+                            <img srcset="img/hotel-2-small.jpg 1x, img/hotel-2.jpg 2x" alt="Photo of resort 2" class="gallery__photo" title="Luxury Resort 2">
                             <figcaption class="gallery__caption">Resort 2</figcaption>
                         </figure>
                         <figure class="gallery__item">
-                                <source srcset="img/hotel-3.webp" type="image/webp">
-                                <source srcset="img/hotel-3.jpg" type="image/jpg">
-                                <img src="img/hotel-3.jpg" alt="Photo of resort 3" class="gallery__photo" title="Luxury Resort 3">
+                                <source srcset="img/hotel-3-small.jpg 1x, img/hotel-3.jpg 2x" media="(max-width: 37.5em)" media="(max-width: 75em">
+                                <img srcset="img/hotel-3-small.jpg 1x, img/hotel-3.jpg 2x" alt="Photo of resort 3" class="gallery__photo" title="Luxury Resort 3">
                             <figcaption class="gallery__caption">Resort 3</figcaption>
                         </figure>
                     </div>
@@ -177,10 +176,18 @@
                                     Recommended for Top Executives
                                 </p>
                                 <div class="recommend__friends">
-                                    <img src="img/user-3.webp" alt="Friends 3" class="recommend__photo">
-                                    <img src="img/user-4.webp" alt="Friends 4" class="recommend__photo">
-                                    <img src="img/user-8.webp" alt="Friends 8" class="recommend__photo">
-                                    <img src="img/user-7.webp" alt="Friends 7" class="recommend__photo">
+                                    <source srcset="img/user-3.webp" type="image/webp">
+                                    <source srcset="img/user-3.jpg" type="image/jpg">
+                                    <img src="img/user-3.jpg" alt="Friends 3" class="recommend__photo">
+                                    <source srcset="img/user-4.webp" type="image/webp">
+                                    <source srcset="img/user-4.jpg" type="image/jpg">
+                                    <img src="img/user-4.jpg" alt="Friends 4" class="recommend__photo">
+                                    <source srcset="img/user-8.webp" type="image/webp">
+                                    <source srcset="img/user-8.jpg" type="image/jpg">
+                                    <img src="img/user-8.jpg" alt="Friends 8" class="recommend__photo">
+                                    <source srcset="img/user-7.webp" type="image/webp">
+                                    <source srcset="img/user-7.jpg" type="image/jpg">
+                                    <img src="img/user-7.jpg" alt="Friends 7" class="recommend__photo">
                                 </div>
                             </div>
                         </div>
@@ -192,7 +199,9 @@
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                 </blockquote>
                                 <figcaption class="review__user">
-                                    <img src="img/user-3.webp" alt="User 3" class="review__photo">
+                                        <source srcset="img/user-3.webp" type="image/webp">
+                                        <source srcset="img/user-3.jpg" type="image/jpg">
+                                    <img src="img/user-3.jpg" alt="User 3" class="review__photo">
                                     <div class="review__user-box">
                                         <p class="review__user-name">Nylia Guirguis</p>
                                         <p class="review__user-date">
@@ -207,7 +216,9 @@
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                 </blockquote>
                                 <figcaption class="review__user">
-                                    <img src="img/user-8.webp" alt="User 8" class="review__photo">
+                                        <source srcset="img/user-8.webp" type="image/webp">
+                                        <source srcset="img/user-8.jpg" type="image/jpg">
+                                    <img src="img/user-8.jpg" alt="User 8" class="review__photo">
                                     <div class="review__user-box">
                                         <p class="review__user-name">Aryan Bhamra</p>
                                         <p class="review__user-date">
